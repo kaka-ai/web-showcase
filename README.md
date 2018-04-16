@@ -1,4 +1,6 @@
 # Showcase Website
+[![Build Status](https://travis-ci.org/kaka-ai/web-showcase.svg?branch=develop)](https://travis-ci.org/kaka-ai/web-showcase)
+[![codecov](https://codecov.io/gh/kaka-ai/web-showcase/branch/develop/graph/badge.svg)](https://codecov.io/gh/kaka-ai/web-showcase)
 
 ## Build Setup
 
