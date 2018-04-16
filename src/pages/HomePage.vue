@@ -1,6 +1,6 @@
 <template>
   <div class="m-home row">
-    <div class="col s4" v-for="(item, index) in projects" :key="index">
+    <div class="col s12 m6 l4" v-for="(item, index) in projects" :key="index">
       <BasicCard
         :title="item.title"
         :content="item.content"
