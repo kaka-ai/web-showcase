@@ -6,7 +6,7 @@
     </div>
     <div class="card-action">
       <a :href="link1" class="m-link1 blue-text">{{link1Title}}</a>
-      <a :href="link2" class="m-link2 blue-text">{{link2Title}}</a>
+      <a :href="link2" class="m-link2 blue-text" v-if="link2">{{link2Title}}</a>
     </div>
   </div>
 </template>
