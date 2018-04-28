@@ -7,7 +7,8 @@
         :link1="item.link1"
         :link1Title="item.link1Title"
         :link2="item.link2"
-        :link2Title="item.link2Title" />
+        :link2Title="item.link2Title"
+        :customClass="item.customClass" />
     </div>
   </div>
 </template>
