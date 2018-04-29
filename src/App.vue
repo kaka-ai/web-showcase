@@ -5,8 +5,16 @@
 </template>
 
 <script>
+import { loadProgressBar } from 'axios-progress-bar'
 export default {
-  name: 'App'
+  name: 'App',
+  created () {
+    loadProgressBar({
+      showSpinner: false,
+      easing: 'ease',
+      speed: 500
+    })
+  }
 }
 </script>
 
