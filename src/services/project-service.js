@@ -4,7 +4,7 @@ import DataUtil from '@/util/data-util'
 
 export default {
   getAll () {
-    let url = SheetService.getApiEndpoint('project', 'A1', 'L10')
+    let url = SheetService.getApiEndpoint('project', 'A1', 'L80')
     return new Promise((resolve, reject) => {
       axios.get(url)
         .then(function (response) {
