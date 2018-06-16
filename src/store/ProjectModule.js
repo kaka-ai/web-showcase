@@ -1,5 +1,5 @@
 
-import ProjectService from '@/services/project-service'
+import ProjectService from '@/services/ProjectService'
 
 export default {
   namespaced: true,

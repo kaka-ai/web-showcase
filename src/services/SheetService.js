@@ -1,4 +1,4 @@
-import { apiEndpoint, sheetId, apiKey } from '@/config/sheet-config'
+import { apiEndpoint, sheetId, apiKey } from '@/config/SheetConfig'
 
 export default {
   getApiEndpoint (sheetName, start, end) {
